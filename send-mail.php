@@ -1,6 +1,6 @@
 <?php
 
-$to = 'user@yourdomain.com'; // Change your email address
+$to = 'cyrus.behr@gmail.com'; // Change your email address
 
 
 $name = $_POST['name'];

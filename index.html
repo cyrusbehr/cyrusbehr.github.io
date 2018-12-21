@@ -38,6 +38,22 @@
     </section>
     <!-- End Preloader -->
 
+ <!-- Sidemenu -->
+    <section id="pushmenu-right" class="pushmenu pushmenu-right side-menu">
+        <a id="menu-sidebar-close-icon" class="menu-close"><i class="ion ion-android-close"></i></a>
+        <ul>
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#meettheteam">Team</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact-info">Location</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
+    </section>
+    <!--End Sidemenu -->
+
+
     <!-- Site Wraper -->
     <div class="wrapper">
 
@@ -49,6 +65,8 @@
                 <div class="logo">
                     <a href="index.html">
                         <img class="logo-light" src="img/logo-white.png" alt="RRMC" />
+                        <img class="logo-dark" src="img/logo-black.png" alt="RRMC" />
+
                     </a>
                 </div>
                 <!-- End Logo -->
@@ -101,90 +119,30 @@
 
         <!-- CONTENT --------------------------------------------------------------------------------->
 
-        <!-- Intro -->
-        <section id="intro" class="intro">
+        <section id="intro" class="dark-bg">
 
-            <!-- Revolution Bg Video -->
-            <div class="tp-banner-container">
-                <div class="intro-Rev_Video text-center dark-bg black-bg">
-                    <ul>
-                        <li data-transition="fadein" data-slotamount="default" data-saveperformance="off" data-fsslotamount="7">
-
-                            <!-- MAIN IMAGE -->
-                            <img src="media/video_poster.jpg" alt="video_forest" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                            <!-- LAYERS -->
-
-                            <!-- Video Bg-->
-                            <div class="tp-caption fullscreenvideo"
-                                data-x="0"
-                                data-y="0"
-                                data-speed="0"
-                                data-start="0"
-                                data-easing="easeNone"
-                                data-endspeed="1500"
-                                data-endeasing="easeNone"
-                                data-autoplay="true"
-                                data-autoplayonlyfirsttime="false"
-                                data-nextslideatend="true"
-                                data-videowidth="100%"
-                                data-videoheight="100%"
-                                data-forcecover="1"
-                                data-dottedoverlay="twoxtwo"
-                                data-aspectratio="16:9"
-                                data-forcerewind="on"
-                                data-volume="mute"
-                                style="z-index: 2">
-
-
-                                <!--<video class="video-js vjs-default-skin" preload="" loop="" width="100%" height="100%" poster="media/video1_poster.jpg">
-                                    <source src="media/splashScreenVideo.mp4" type='video/mp4' />
-                                    <source src='media/splashScreenVideo.webm' type='video/webm' />
-                                    <source src='media/spalshScreenVideo.ogv' type='video/ogg' />
-                                </video>
-
-                                -->
-                                <!-- LAYER NR. 2 -->
-                                <h1 class="tp-caption customin customout sfb h1"
-                                    data-x="center"
-                                    data-hoffset="0"
-                                    data-y="center"
-                                    data-voffset="0"
-                                    data-speed="800"
-                                    data-start="1400"
-                                    data-endspeed="500"
-                                    data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                                    data-easing="Linear.easeNone"
-                                    data-elementdelay="0.1"
-                                    data-endeasing="Linear.easeNone">Richmond Road Medical Clinic
-                                </h1>
-
-                                <!-- LAYER NR. 3 -->
-                                <div  class="tp-caption customin customout sfb"
-                                    data-x="center"
-                                    data-hoffset="0"
-                                    data-y="center"
-                                    data-voffset="90"
-                                    data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                                    data-speed="800"
-                                    data-start="2000"
-                                    data-endspeed="500"
-                                    data-easing="Linear.easeNone"
-                                    data-elementdelay="0.1">
-                                    <a href = "#contact-info" class="btn btn-md btn-white-line xs-hidden">Our Location</a>
-                                    <span class="btn-space-10 xs-hidden"></span>
-                                    <a href = "#schedule" class="btn btn-md btn-white">Schedule</a>
-                                </div>
-
-
+            <!-- Hero Slider Section -->
+            <div class="owl-carousel fullwidth-slider white o-flow-hidden">
+                <!--Slide-->
+                <div class="item bg-img slide-bg-image parallax parallax-section1" data-background-img="img/full/23.jpg">
+                    <!-- Content -->
+                    <div class="full-cap-wraper overlay-dark80 light-color">
+                        <div class="content-caption light-color">
+                            <div class="container">
+                                <h1 class="h1">Richmond Road Medical Clinic</h1>
+                                <br>
+                                <a href = "#contact-info" class="btn btn-md btn-white-line xs-hidden">Our Location</a>
+                                <span class="btn-space-10 xs-hidden"></span>
+                                <a href = "#schedule" class="btn btn-md btn-white">Schedule</a>
                             </div>
-
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
+                    <!-- End Content -->
                 </div>
             </div>
-            <!-- End Revolution Bg Video -->
+            <!-- End Hero Slider Section -->
+        </section>
+        <!-- End Intro Section -->
 
         </section>
         <!-- End Intro -->
