@@ -4502,3 +4502,11 @@ ul.project-detail-block, .project-detail-block ul {
   width: 100%;
   height: 100%;
 }
+
+.test {
+    margin: auto;
+    position: relative;
+  height: 0;
+  width: 75%;
+  padding-bottom: 60%;
+}
