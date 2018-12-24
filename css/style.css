@@ -4486,3 +4486,19 @@ ul.project-detail-block, .project-detail-block ul {
         visibility: hidden;
     }
 }
+
+.responsiveCal{
+    margin: auto;
+  position: relative;
+  height: 0;
+  width: 75%;
+  padding-bottom: 60%;
+}
+
+.responsiveCal iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
